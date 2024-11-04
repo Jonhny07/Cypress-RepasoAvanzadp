@@ -1,0 +1,16 @@
+{
+  "name": "cypress_avanzado_2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open --e2e -b electron",
+    "runOnlineShop":"npx cypress run --spec 'cypress/e2e/online-shop/**/**.cy.js*'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.15.1"
+  }
+}
